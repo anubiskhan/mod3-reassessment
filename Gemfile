@@ -17,6 +17,7 @@ gem 'faker'
 gem 'therubyracer'
 gem 'bootstrap-sass'
 gem 'figaro'
+gem 'faraday'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
