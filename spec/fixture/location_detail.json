@@ -1,0 +1,551 @@
+{
+    "popularity": "4.57",
+    "nightlife_index": "4.56",
+    "nearby_res": [
+        "16971985",
+        "16968020",
+        "16972830",
+        "16971274",
+        "16975729",
+        "16969942",
+        "16973157",
+        "16967185",
+        "16974574"
+    ],
+    "top_cuisines": [
+        "American",
+        "Sandwich",
+        "Cafe",
+        "Pizza",
+        "Bar Food"
+    ],
+    "popularity_res": "100",
+    "nightlife_res": "10",
+    "subzone": "Capitol Hill",
+    "subzone_id": 117502,
+    "city": "Denver",
+    "location": {
+        "entity_type": "city",
+        "entity_id": 305,
+        "title": "Denver, Colorado",
+        "latitude": 39.739109,
+        "longitude": -104.983917,
+        "city_id": 305,
+        "city_name": "Denver",
+        "country_id": 216,
+        "country_name": "United States"
+    },
+    "num_restaurant": 6992,
+    "best_rated_restaurant": [
+        {
+            "restaurant": {
+                "R": {
+                    "res_id": 16971711
+                },
+                "apikey": "71efa1dce2d712733d64615e35982643",
+                "id": "16971711",
+                "name": "Snooze",
+                "url": "https://www.zomato.com/denver/snooze-1-lodo?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+                "location": {
+                    "address": "2262 Larimer Street, Denver 80205",
+                    "locality": "LoDo",
+                    "city": "Denver",
+                    "city_id": 305,
+                    "latitude": "39.7556527778",
+                    "longitude": "-104.9889972222",
+                    "zipcode": "80205",
+                    "country_id": 216,
+                    "locality_verbose": "LoDo, Denver"
+                },
+                "switch_to_order_menu": 0,
+                "cuisines": "American",
+                "average_cost_for_two": 25,
+                "price_range": 2,
+                "currency": "$",
+                "offers": [],
+                "opentable_support": 0,
+                "is_zomato_book_res": 0,
+                "mezzo_provider": "OTHER",
+                "is_book_form_web_view": 0,
+                "book_form_web_view_url": "",
+                "book_again_url": "",
+                "thumb": "https://b.zmtcdn.com/data/res_imagery/16971711_CHAIN_f119442cdbe11fe9f5c9c95072a54932.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+                "user_rating": {
+                    "aggregate_rating": "4.6",
+                    "rating_text": "Excellent",
+                    "rating_color": "3F7E00",
+                    "votes": "642"
+                },
+                "photos_url": "https://www.zomato.com/denver/snooze-1-lodo/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
+                "menu_url": "https://www.zomato.com/denver/snooze-1-lodo/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+                "featured_image": "https://b.zmtcdn.com/data/res_imagery/16971711_CHAIN_f119442cdbe11fe9f5c9c95072a54932.jpg",
+                "has_online_delivery": 0,
+                "is_delivering_now": 0,
+                "include_bogo_offers": true,
+                "deeplink": "zomato://restaurant/16971711",
+                "is_table_reservation_supported": 0,
+                "has_table_booking": 0,
+                "events_url": "https://www.zomato.com/denver/snooze-1-lodo/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1"
+            }
+        },
+        {
+            "restaurant": {
+                "R": {
+                    "res_id": 16973071
+                },
+                "apikey": "71efa1dce2d712733d64615e35982643",
+                "id": "16973071",
+                "name": "Osteria Marco",
+                "url": "https://www.zomato.com/denver/osteria-marco-lodo?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+                "location": {
+                    "address": "Larimer Square, 1453 Larimer Street, Denver 80202",
+                    "locality": "Larimer Square, LoDo",
+                    "city": "Denver",
+                    "city_id": 305,
+                    "latitude": "39.7480166667",
+                    "longitude": "-104.9988722222",
+                    "zipcode": "80202",
+                    "country_id": 216,
+                    "locality_verbose": "Larimer Square, LoDo, Denver"
+                },
+                "switch_to_order_menu": 0,
+                "cuisines": "Italian",
+                "average_cost_for_two": 25,
+                "price_range": 2,
+                "currency": "$",
+                "offers": [],
+                "opentable_support": 0,
+                "is_zomato_book_res": 0,
+                "mezzo_provider": "OTHER",
+                "is_book_form_web_view": 0,
+                "book_form_web_view_url": "",
+                "book_again_url": "",
+                "thumb": "",
+                "user_rating": {
+                    "aggregate_rating": "4.8",
+                    "rating_text": "Excellent",
+                    "rating_color": "3F7E00",
+                    "votes": "445"
+                },
+                "photos_url": "https://www.zomato.com/denver/osteria-marco-lodo/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
+                "menu_url": "https://www.zomato.com/denver/osteria-marco-lodo/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+                "featured_image": "",
+                "has_online_delivery": 0,
+                "is_delivering_now": 0,
+                "include_bogo_offers": true,
+                "deeplink": "zomato://restaurant/16973071",
+                "is_table_reservation_supported": 0,
+                "has_table_booking": 0,
+                "events_url": "https://www.zomato.com/denver/osteria-marco-lodo/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1"
+            }
+        },
+        {
+            "restaurant": {
+                "R": {
+                    "res_id": 16971985
+                },
+                "apikey": "71efa1dce2d712733d64615e35982643",
+                "id": "16971985",
+                "name": "Steuben's Food Service",
+                "url": "https://www.zomato.com/denver/steubens-food-service-north-capitol-hill?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+                "location": {
+                    "address": "523 East 17th Avenue, Denver 80203",
+                    "locality": "North Capitol Hill",
+                    "city": "Denver",
+                    "city_id": 305,
+                    "latitude": "39.7433166667",
+                    "longitude": "-104.9804694444",
+                    "zipcode": "80203",
+                    "country_id": 216,
+                    "locality_verbose": "North Capitol Hill, Denver"
+                },
+                "switch_to_order_menu": 0,
+                "cuisines": "American",
+                "average_cost_for_two": 25,
+                "price_range": 2,
+                "currency": "$",
+                "offers": [],
+                "opentable_support": 0,
+                "is_zomato_book_res": 0,
+                "mezzo_provider": "OTHER",
+                "is_book_form_web_view": 0,
+                "book_form_web_view_url": "",
+                "book_again_url": "",
+                "thumb": "https://b.zmtcdn.com/data/res_imagery/16971985_RESTAURANT_3d70206838085474cdb24d869dfc7e1e.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+                "user_rating": {
+                    "aggregate_rating": "4.6",
+                    "rating_text": "Excellent",
+                    "rating_color": "3F7E00",
+                    "votes": "689"
+                },
+                "photos_url": "https://www.zomato.com/denver/steubens-food-service-north-capitol-hill/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
+                "menu_url": "https://www.zomato.com/denver/steubens-food-service-north-capitol-hill/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+                "featured_image": "https://b.zmtcdn.com/data/res_imagery/16971985_RESTAURANT_3d70206838085474cdb24d869dfc7e1e.jpg",
+                "has_online_delivery": 0,
+                "is_delivering_now": 0,
+                "include_bogo_offers": true,
+                "deeplink": "zomato://restaurant/16971985",
+                "is_table_reservation_supported": 0,
+                "has_table_booking": 0,
+                "events_url": "https://www.zomato.com/denver/steubens-food-service-north-capitol-hill/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1"
+            }
+        },
+        {
+            "restaurant": {
+                "R": {
+                    "res_id": 16967791
+                },
+                "apikey": "71efa1dce2d712733d64615e35982643",
+                "id": "16967791",
+                "name": "Cherry Cricket",
+                "url": "https://www.zomato.com/denver/cherry-cricket-cherry-creek?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+                "location": {
+                    "address": "2641 East 2nd Avenue, Denver 80206",
+                    "locality": "Cherry Creek",
+                    "city": "Denver",
+                    "city_id": 305,
+                    "latitude": "39.7194583333",
+                    "longitude": "-104.9563527778",
+                    "zipcode": "80206",
+                    "country_id": 216,
+                    "locality_verbose": "Cherry Creek, Denver"
+                },
+                "switch_to_order_menu": 0,
+                "cuisines": "American, Burger, Mexican",
+                "average_cost_for_two": 10,
+                "price_range": 1,
+                "currency": "$",
+                "offers": [],
+                "opentable_support": 0,
+                "is_zomato_book_res": 0,
+                "mezzo_provider": "OTHER",
+                "is_book_form_web_view": 0,
+                "book_form_web_view_url": "",
+                "book_again_url": "",
+                "thumb": "https://b.zmtcdn.com/data/res_imagery/16967791_RESTAURANT_38b29d9484a49931767ff44d14e9c5a4_c.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+                "user_rating": {
+                    "aggregate_rating": "4.6",
+                    "rating_text": "Excellent",
+                    "rating_color": "3F7E00",
+                    "votes": "867"
+                },
+                "photos_url": "https://www.zomato.com/denver/cherry-cricket-cherry-creek/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
+                "menu_url": "https://www.zomato.com/denver/cherry-cricket-cherry-creek/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+                "featured_image": "https://b.zmtcdn.com/data/res_imagery/16967791_RESTAURANT_38b29d9484a49931767ff44d14e9c5a4_c.jpg",
+                "has_online_delivery": 0,
+                "is_delivering_now": 0,
+                "include_bogo_offers": true,
+                "deeplink": "zomato://restaurant/16967791",
+                "is_table_reservation_supported": 0,
+                "has_table_booking": 0,
+                "events_url": "https://www.zomato.com/denver/cherry-cricket-cherry-creek/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1"
+            }
+        },
+        {
+            "restaurant": {
+                "R": {
+                    "res_id": 16973602
+                },
+                "apikey": "71efa1dce2d712733d64615e35982643",
+                "id": "16973602",
+                "name": "Root Down",
+                "url": "https://www.zomato.com/denver/root-down-the-highlands?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+                "location": {
+                    "address": "1600 West 33rd Avenue, Denver 80211",
+                    "locality": "The Highlands",
+                    "city": "Denver",
+                    "city_id": 305,
+                    "latitude": "39.7631694444",
+                    "longitude": "-105.0056138889",
+                    "zipcode": "80211",
+                    "country_id": 216,
+                    "locality_verbose": "The Highlands, Denver"
+                },
+                "switch_to_order_menu": 0,
+                "cuisines": "American, Tapas",
+                "average_cost_for_two": 40,
+                "price_range": 3,
+                "currency": "$",
+                "offers": [],
+                "opentable_support": 0,
+                "is_zomato_book_res": 0,
+                "mezzo_provider": "OTHER",
+                "is_book_form_web_view": 0,
+                "book_form_web_view_url": "",
+                "book_again_url": "",
+                "thumb": "https://b.zmtcdn.com/data/res_imagery/16973602_RESTAURANT_cacc974991b59436f5d3adc0fac03140.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+                "user_rating": {
+                    "aggregate_rating": "4.7",
+                    "rating_text": "Excellent",
+                    "rating_color": "3F7E00",
+                    "votes": "481"
+                },
+                "photos_url": "https://www.zomato.com/denver/root-down-the-highlands/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
+                "menu_url": "https://www.zomato.com/denver/root-down-the-highlands/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+                "featured_image": "https://b.zmtcdn.com/data/res_imagery/16973602_RESTAURANT_cacc974991b59436f5d3adc0fac03140.jpg",
+                "has_online_delivery": 0,
+                "is_delivering_now": 0,
+                "include_bogo_offers": true,
+                "deeplink": "zomato://restaurant/16973602",
+                "is_table_reservation_supported": 0,
+                "has_table_booking": 0,
+                "events_url": "https://www.zomato.com/denver/root-down-the-highlands/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1"
+            }
+        },
+        {
+            "restaurant": {
+                "R": {
+                    "res_id": 16972224
+                },
+                "apikey": "71efa1dce2d712733d64615e35982643",
+                "id": "16972224",
+                "name": "Sushi Den",
+                "url": "https://www.zomato.com/denver/sushi-den-south-pearl-platt-park?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+                "location": {
+                    "address": "1487 South Pearl Street, Denver 80210",
+                    "locality": "South Pearl-Platt Park",
+                    "city": "Denver",
+                    "city_id": 305,
+                    "latitude": "39.6895611111",
+                    "longitude": "-104.9804833333",
+                    "zipcode": "80210",
+                    "country_id": 216,
+                    "locality_verbose": "South Pearl-Platt Park, Denver"
+                },
+                "switch_to_order_menu": 0,
+                "cuisines": "Japanese, Sushi",
+                "average_cost_for_two": 70,
+                "price_range": 4,
+                "currency": "$",
+                "offers": [],
+                "opentable_support": 0,
+                "is_zomato_book_res": 0,
+                "mezzo_provider": "OTHER",
+                "is_book_form_web_view": 0,
+                "book_form_web_view_url": "",
+                "book_again_url": "",
+                "thumb": "https://b.zmtcdn.com/data/res_imagery/16972224_RESTAURANT_82a9fc2c8858024d1fcc6a96ba8a7e0b_c.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+                "user_rating": {
+                    "aggregate_rating": "4.6",
+                    "rating_text": "Excellent",
+                    "rating_color": "3F7E00",
+                    "votes": "572"
+                },
+                "photos_url": "https://www.zomato.com/denver/sushi-den-south-pearl-platt-park/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
+                "menu_url": "https://www.zomato.com/denver/sushi-den-south-pearl-platt-park/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+                "featured_image": "https://b.zmtcdn.com/data/res_imagery/16972224_RESTAURANT_82a9fc2c8858024d1fcc6a96ba8a7e0b_c.jpg",
+                "has_online_delivery": 0,
+                "is_delivering_now": 0,
+                "include_bogo_offers": true,
+                "deeplink": "zomato://restaurant/16972224",
+                "is_table_reservation_supported": 0,
+                "has_table_booking": 0,
+                "events_url": "https://www.zomato.com/denver/sushi-den-south-pearl-platt-park/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1"
+            }
+        },
+        {
+            "restaurant": {
+                "R": {
+                    "res_id": 16974750
+                },
+                "apikey": "71efa1dce2d712733d64615e35982643",
+                "id": "16974750",
+                "name": "Linger",
+                "url": "https://www.zomato.com/denver/linger-the-highlands?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+                "location": {
+                    "address": "2030 West 30th Avenue, Denver 80211",
+                    "locality": "The Highlands",
+                    "city": "Denver",
+                    "city_id": 305,
+                    "latitude": "39.7595972222",
+                    "longitude": "-105.0114444444",
+                    "zipcode": "80211",
+                    "country_id": 216,
+                    "locality_verbose": "The Highlands, Denver"
+                },
+                "switch_to_order_menu": 0,
+                "cuisines": "American, Asian, European",
+                "average_cost_for_two": 25,
+                "price_range": 2,
+                "currency": "$",
+                "offers": [],
+                "opentable_support": 0,
+                "is_zomato_book_res": 0,
+                "mezzo_provider": "OTHER",
+                "is_book_form_web_view": 0,
+                "book_form_web_view_url": "",
+                "book_again_url": "",
+                "thumb": "https://b.zmtcdn.com/data/res_imagery/16974750_RESTAURANT_f25805c0858783cadd6a50e12d89b50d_c.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+                "user_rating": {
+                    "aggregate_rating": "4.2",
+                    "rating_text": "Very Good",
+                    "rating_color": "5BA829",
+                    "votes": "362"
+                },
+                "photos_url": "https://www.zomato.com/denver/linger-the-highlands/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
+                "menu_url": "https://www.zomato.com/denver/linger-the-highlands/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+                "featured_image": "https://b.zmtcdn.com/data/res_imagery/16974750_RESTAURANT_f25805c0858783cadd6a50e12d89b50d_c.jpg",
+                "has_online_delivery": 0,
+                "is_delivering_now": 0,
+                "include_bogo_offers": true,
+                "deeplink": "zomato://restaurant/16974750",
+                "is_table_reservation_supported": 0,
+                "has_table_booking": 0,
+                "events_url": "https://www.zomato.com/denver/linger-the-highlands/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1"
+            }
+        },
+        {
+            "restaurant": {
+                "R": {
+                    "res_id": 16973776
+                },
+                "apikey": "71efa1dce2d712733d64615e35982643",
+                "id": "16973776",
+                "name": "Park Burger",
+                "url": "https://www.zomato.com/denver/park-burger-south-pearl-platt-park?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+                "location": {
+                    "address": "1890 South Pearl Street 80210",
+                    "locality": "South Pearl-Platt Park",
+                    "city": "Denver",
+                    "city_id": 305,
+                    "latitude": "39.6822750000",
+                    "longitude": "-104.9804472222",
+                    "zipcode": "80210",
+                    "country_id": 216,
+                    "locality_verbose": "South Pearl-Platt Park, Denver"
+                },
+                "switch_to_order_menu": 0,
+                "cuisines": "American, Burger",
+                "average_cost_for_two": 35,
+                "price_range": 3,
+                "currency": "$",
+                "offers": [],
+                "opentable_support": 0,
+                "is_zomato_book_res": 0,
+                "mezzo_provider": "OTHER",
+                "is_book_form_web_view": 0,
+                "book_form_web_view_url": "",
+                "book_again_url": "",
+                "thumb": "https://b.zmtcdn.com/data/res_imagery/16973776_CHAIN_643da22496188b0a6597d88022df52c9_c.png?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+                "user_rating": {
+                    "aggregate_rating": "4.9",
+                    "rating_text": "Excellent",
+                    "rating_color": "3F7E00",
+                    "votes": "257"
+                },
+                "photos_url": "https://www.zomato.com/denver/park-burger-south-pearl-platt-park/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
+                "menu_url": "https://www.zomato.com/denver/park-burger-south-pearl-platt-park/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+                "featured_image": "https://b.zmtcdn.com/data/res_imagery/16973776_CHAIN_643da22496188b0a6597d88022df52c9_c.png",
+                "has_online_delivery": 0,
+                "is_delivering_now": 0,
+                "include_bogo_offers": true,
+                "deeplink": "zomato://restaurant/16973776",
+                "is_table_reservation_supported": 0,
+                "has_table_booking": 0,
+                "events_url": "https://www.zomato.com/denver/park-burger-south-pearl-platt-park/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1"
+            }
+        },
+        {
+            "restaurant": {
+                "R": {
+                    "res_id": 16972712
+                },
+                "apikey": "71efa1dce2d712733d64615e35982643",
+                "id": "16972712",
+                "name": "Vesta",
+                "url": "https://www.zomato.com/denver/vesta-lodo?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+                "location": {
+                    "address": "1822 Blake Street, Denver 80202",
+                    "locality": "LoDo",
+                    "city": "Denver",
+                    "city_id": 305,
+                    "latitude": "39.7527000000",
+                    "longitude": "-104.9961305556",
+                    "zipcode": "80202",
+                    "country_id": 216,
+                    "locality_verbose": "LoDo, Denver"
+                },
+                "switch_to_order_menu": 0,
+                "cuisines": "New American",
+                "average_cost_for_two": 40,
+                "price_range": 3,
+                "currency": "$",
+                "offers": [],
+                "opentable_support": 0,
+                "is_zomato_book_res": 0,
+                "mezzo_provider": "OTHER",
+                "is_book_form_web_view": 0,
+                "book_form_web_view_url": "",
+                "book_again_url": "",
+                "thumb": "https://b.zmtcdn.com/data/res_imagery/16972712_RESTAURANT_d4853e00f9b72e0c533f98a58e406aed_c.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+                "user_rating": {
+                    "aggregate_rating": "4.4",
+                    "rating_text": "Very Good",
+                    "rating_color": "5BA829",
+                    "votes": "460"
+                },
+                "photos_url": "https://www.zomato.com/denver/vesta-lodo/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
+                "menu_url": "https://www.zomato.com/denver/vesta-lodo/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+                "featured_image": "https://b.zmtcdn.com/data/res_imagery/16972712_RESTAURANT_d4853e00f9b72e0c533f98a58e406aed_c.jpg?output-format=webp",
+                "has_online_delivery": 0,
+                "is_delivering_now": 0,
+                "include_bogo_offers": true,
+                "deeplink": "zomato://restaurant/16972712",
+                "is_table_reservation_supported": 0,
+                "has_table_booking": 0,
+                "events_url": "https://www.zomato.com/denver/vesta-lodo/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1"
+            }
+        },
+        {
+            "restaurant": {
+                "R": {
+                    "res_id": 16971385
+                },
+                "apikey": "71efa1dce2d712733d64615e35982643",
+                "id": "16971385",
+                "name": "Rioja",
+                "url": "https://www.zomato.com/denver/rioja-lodo?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+                "location": {
+                    "address": "Larimer Square, 1431 Larimer Street, Denver 80202",
+                    "locality": "Larimer Square, LoDo",
+                    "city": "Denver",
+                    "city_id": 305,
+                    "latitude": "39.7477638889",
+                    "longitude": "-104.9993138889",
+                    "zipcode": "80202",
+                    "country_id": 216,
+                    "locality_verbose": "Larimer Square, LoDo, Denver"
+                },
+                "switch_to_order_menu": 0,
+                "cuisines": "Mediterranean",
+                "average_cost_for_two": 40,
+                "price_range": 3,
+                "currency": "$",
+                "offers": [],
+                "opentable_support": 0,
+                "is_zomato_book_res": 0,
+                "mezzo_provider": "OTHER",
+                "is_book_form_web_view": 0,
+                "book_form_web_view_url": "",
+                "book_again_url": "",
+                "thumb": "https://b.zmtcdn.com/data/res_imagery/16971385_RESTAURANT_2bbe51f6bd0551716bf34600cd673b98_c.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+                "user_rating": {
+                    "aggregate_rating": "4.4",
+                    "rating_text": "Very Good",
+                    "rating_color": "5BA829",
+                    "votes": "428"
+                },
+                "photos_url": "https://www.zomato.com/denver/rioja-lodo/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
+                "menu_url": "https://www.zomato.com/denver/rioja-lodo/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+                "featured_image": "https://b.zmtcdn.com/data/res_imagery/16971385_RESTAURANT_2bbe51f6bd0551716bf34600cd673b98_c.jpg",
+                "has_online_delivery": 0,
+                "is_delivering_now": 0,
+                "include_bogo_offers": true,
+                "deeplink": "zomato://restaurant/16971385",
+                "is_table_reservation_supported": 0,
+                "has_table_booking": 0,
+                "events_url": "https://www.zomato.com/denver/rioja-lodo/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1"
+            }
+        }
+    ]
+}
