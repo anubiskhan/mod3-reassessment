@@ -29,8 +29,6 @@ describe 'I' do
     end
 
     it 'responds with an item' do
-# When I send a GET request to `/api/v1/items/1`
-# I receive a 200 JSON response containing the id, name, description, and image_url but not the created_at or updated_at
       10.times do |i|
         item = Item.create!(
           name: Faker::Commerce.product_name,
@@ -54,9 +52,24 @@ describe 'I' do
       expect(body).to_not include('created_at')
       expect(body).to_not include('updated_at')
     end
-# When I send a DELETE request to `/api/v1/items/1`
-# I receive a 204 JSON response if the record is successfully deleted
-#
+
+    it 'deletes an item' do
+      10.times do |i|
+        item = Item.create!(
+          name: Faker::Commerce.product_name,
+          description: Faker::Lorem.paragraph,
+          image_url: "http://robohash.org/#{i}.png?set=set2&bgset=bg1&size=200x200"
+        )
+        puts "Item #{i}: #{item.name} created!"
+      end
+      expect(Item.count).to eq(10)
+
+      delete '/api/v1/items/1'
+
+      expect(response.body).to include('204')
+
+      expect(Item.count).to eq(9)
+    end
 # When I send a POST request to `/api/v1/items` with a name, description, and image_url
 # I receive a 201 JSON  response if the record is successfully created
 # And I receive a JSON response containing the id, name, description, and image_url but not the created_at or updated_at
