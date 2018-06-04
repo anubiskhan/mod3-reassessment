@@ -4,5 +4,8 @@
 <% end %>
 
 <% @top_5_restaurants.each do |r| %>
-  <p>cuisine: <%= c %></p>
+<h2>Restaurant</h2>
+  <p>name: <%= r["restaurant"]['name'] %></p>
+  <p>address: <%= r["restaurant"]['location']['address'] %></p>
+  <p>locality: <%= r["restaurant"]['location']['locality'] %></p>
 <% end %>
