@@ -15,4 +15,7 @@
     </div>
   <% end %>
 </div>
-
+<%= form_tag :search, method: 'get' do %>
+    <%= text_field_tag :search %>
+    <%= submit_tag "search" %>
+<% end %>
