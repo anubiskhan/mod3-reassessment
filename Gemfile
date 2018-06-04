@@ -17,6 +17,7 @@ gem 'faker'
 gem 'therubyracer'
 gem 'bootstrap-sass'
 gem 'figaro'
+gem 'active_model_serializers', '~> 0.10.0'
 gem 'faraday'
 
 group :development, :test do
