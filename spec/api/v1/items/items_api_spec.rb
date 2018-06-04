@@ -17,12 +17,15 @@ describe 'I' do
       expect(response.body).to include('200')
 # And each item has an id, name, description, and image_url but not the created_at or updated_at
       body = JSON.parse(response.body)
-      
-      expect(body['items'].count).to eq(10)
-      expect(body['items'][0]).to include('id')
-      expect(body['items'][0]).to include('name')
-      expect(body['items'][0]).to include('description')
-      expect(body['items'][0]).to include('image_url')
+
+      expect(body.count).to eq(10)
+      expect(body[0]).to include('id')
+      expect(body[0]).to include('name')
+      expect(body[0]).to include('description')
+      expect(body[0]).to include('image_url')
+      expect(body[0]).to include('image_url')
+      expect(body[0]).to_not include('created_at')
+      expect(body[0]).to_not include('updated_at')
     end
 # When I send a GET request to `/api/v1/items/1`
 # I receive a 200 JSON response containing the id, name, description, and image_url but not the created_at or updated_at
