@@ -70,11 +70,21 @@ describe 'I' do
 
       expect(Item.count).to eq(9)
     end
+
+    it 'creates an item' do
+      expect(Item.count).to eq(0)
+
+      post '/api/v1/items', params: { name: 'Bilbo', description: 'Hobbit Bobbit', image_url: 'https://vignette.wikia.nocookie.net/characters/images/0/09/Bilbo_baggins.png/revision/latest?cb=20160924001540'}
+
+      expect(response.status).to eq(201)
+
+      expect(response.body).to include('Bilbo')
+      expect(response.body).to include('Hobbit Bobbit')
+      expect(response.body).to include('https://vignette.wikia.nocookie.net/characters/images/0/09/Bilbo_baggins.png/revision/latest?cb=20160924001540')
+    end
 # When I send a POST request to `/api/v1/items` with a name, description, and image_url
 # I receive a 201 JSON  response if the record is successfully created
 # And I receive a JSON response containing the id, name, description, and image_url but not the created_at or updated_at
 #
-# * Verify that your non-GET requests work using Postman or curl.
-# (Hint: `ActionController::API`). Why doesn't the default `ApplicationController` support POST and PUT requests?
   end
 end

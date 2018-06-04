@@ -9,6 +9,12 @@ class Api::V1::ItemsController < ApiController
     render json: @item
   end
 
+  def create
+    item = Item.create(name: params[:name], description: params[:description], image_url: params[:image_url])
+    render json: item,
+    status: 201
+  end
+
   def destroy
     item = Item.find(params[:id])
     item.delete
