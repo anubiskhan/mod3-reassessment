@@ -1,4 +1,5 @@
 class Location
+  attr_reader :location_body
   def initialize(location)
     @location = location
     location_lookup
@@ -10,6 +11,6 @@ class Location
       conn.headers['user-key'] = ENV['API_KEY']
     end
 
-    return JSON.parse(resp.env.body)
+    @location_body = JSON.parse(resp.env.body)
   end
 end
