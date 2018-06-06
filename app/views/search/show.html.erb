@@ -1,11 +1,11 @@
 <h2>Top 5 of Denver</h2>
-<% @search.top_cuisines.each do |c| %>
-  <p>cuisine: <%= c %></p>
+<% @search.top_cuisines.each do |cuisine| %>
+  <p>cuisine: <%= cuisine.name %></p>
 <% end %>
 
-<% @search.top_5_restaurants.each do |r| %>
+<% @search.top_5_restaurants.each do |restaurant| %>
 <h2>Restaurant</h2>
-  <p>name: <%= r.name %></p>
-  <p>address: <%= r.address %></p>
-  <p>locality: <%= r.locality %></p>
+  <p>name: <%= restaurant.name %></p>
+  <p>address: <%= restaurant.address %></p>
+  <p>locality: <%= restaurant.locality %></p>
 <% end %>
