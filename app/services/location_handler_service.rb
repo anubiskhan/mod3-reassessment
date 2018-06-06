@@ -1,4 +1,4 @@
-class LocationPresenter
+class LocationHandlerService
   def initialize(location)
     @location_service = LocationService.new(location)
   end
