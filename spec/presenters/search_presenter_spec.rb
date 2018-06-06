@@ -4,9 +4,10 @@ describe SearchPresenter do
   describe 'methods' do
     it '#top_cuisines' do
       search = SearchPresenter.new('Denver')
-      expected = %w[American Sandwich Cafe Pizza Bar\ Food]
 
-      expect(search.top_cuisines).to eq(expected)
+      expect(search.top_cuisines).to be_instance_of(Array)
+      expect(search.top_cuisines[0]).to be_instance_of(Cuisine)
+      expect(search.top_cuisines[0].name).to eq('American')
     end
     it '#top_5_restaurants' do
       search = SearchPresenter.new('Denver')
